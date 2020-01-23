@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Giving Form - Wireframe</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="icon" type="image/png" href="images/favicon.png">
+
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Raleway:400,300,600">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/skeleton.css">
+    <link rel="stylesheet" type="text/css" href="css/featherlight.min.css">
+    <link rel="stylesheet" type="text/css" href="css/proposal-2.css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="scripts/featherlight.min.js"></script>
+    <script src="scripts/proposal-2.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div>
+                <h1 style="text-align: center">GIVE</h1>
+                <p style="text-align: center">and help amplify INSEAD’s impact around the world</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="row margin-top-30">
+                <div class="two columns">&nbsp;</div>
+
+                <div class="eight columns box">
+                    <p class="no-margins">Don't want to give online? Explore our additional ways to give.<br><a href="https://forceforgood.insead.edu/give#other-ways-to-pay">Read more</a></p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row margin-top-30">
+            <label>INSEAD provides tax relief for the following countries/territories</label>
+        </div>
+
+        <div class="row margin-top-30">
+            <div class="four columns">
+                <button id="country-be" country="BE">Belgium</button>
+                <a class="tax-info" href="lightboxes/be.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+            <div class="four columns">
+                <button id="country-ca" country="CA">Canada</button>
+                <a class="tax-info" href="lightboxes/ca.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+            <div class="four columns">
+                <button id="country-fr" country="FR">France</button>
+                <a class="tax-info" href="lightboxes/fr.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+        </div>
+
+        <div class="row margin-top-20">
+            <div class="four columns">
+                <button id="country-de" country="DE">Germany</button>
+                <a class="tax-info" href="lightboxes/de.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+            <div class="four columns">
+                <button id="country-hk" country="HK">Hong Kong</button>
+                <a class="tax-info" href="lightboxes/hk.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+            <div class="four columns">
+                <button id="country-lu" country="LU">Luxembourg</button>
+                <a class="tax-info" href="lightboxes/lu.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+        </div>
+
+        <div class="row margin-top-20">
+            <div class="four columns">
+                <button id="country-ch" country="CH">Switzerland</button>
+                <a class="tax-info" href="lightboxes/ch.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+            <div class="four columns">
+                <button id="country-uk" country="UK">The United Kingdom</button>
+                <a class="tax-info" href="lightboxes/uk.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+            <div class="four columns">
+                <button id="country-us" country="US">The United States</button>
+                <a class="tax-info" href="lightboxes/us.html" data-featherlight="ajax">Tax Info</a>
+            </div>
+        </div>
+
+        <div class="row margin-top-20">
+            <hr>
+            <div><button id="country-other">Other countries<br><small>No Tax Relief</small></button></div>
+        </div>
+
+    </div>
+
+    <!-- Donation Destination -->
+    <div id="donation" class="container">
+        <div class="row margin-top-50">
+            <div>
+                <h2>Donation Destination</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns"><button id="big-bucket-1">Dean's Fund / Greatest Impact</button></div>
+            <div class="four columns"><button id="big-bucket-2">Digital @ INSEAD</button></div>
+            <div class="four columns"><button id="big-bucket-3">Hoffmann Global Institute</button></div>
+        </div>
+
+        <div class="row margin-top-20">
+            <div class="four columns"><button id="big-bucket-4">MBA Scholarships</button></div>
+            <div class="four columns"><button id="big-bucket-5">Faculty and Research</button></div>
+            <div class="four columns"><button id="big-bucket-6">Campus Renewal</button></div>
+        </div>
+
+        <div class="row margin-top-20">
+            <div class="four columns"><button id="big-bucket-7">Payment of a Pledge Instalment</button></div>
+            <div class="four columns"><button id="big-bucket-other">Other Desintations</button></div>
+        </div>
+
+        <div id="other-destinations" class="row margin-top-50">
+            <div>
+                <label>Other destinations</label>
+                <input type="text" id="destination" list="destinations" />
+
+                <datalist id="destinations">
+                    <option value="Aleph Scholarship">
+                    <option value="Antonio Borges Endowed Scholarship">
+                    <option value="Belgian Alumni and Council Scholarship">
+                    <option value="Canadian Alumni Endowed Scholarship">
+                    <option value="Canadian Alumni Scholarship">
+                    <option value="Career Development Centre">
+                    <option value="EMBA Scholarship">
+                    <option value="EMBA'08 Scholarship">
+                    <option value="French Alumni Endowed Scholarship">
+                    <option value="Gender Diversity Initiative">
+                    <option value="Greek Friends Scholarship">
+                    <option value="IAA Endowed Scholarship">
+                    <option value="INSEAD General Endowment">
+                    <option value="INSEAD Loan Assistance Programme">
+                    <option value="INSEAD North Africa Scholarship">
+                    <option value="INSEAD San Francisco">
+                    <option value="INSEAD Social Impact Award">
+                    <option value="Judith Connelly Endowed Scholarship">
+                    <option value="MBA Scholarships for Women">
+                    <option value="MBA'03D Endowed Scholarship">
+                    <option value="MBA'03J Reunion Class Gift - November 2018">
+                    <option value="MBA'07D Sam Akiwumi Endowed Scholarship">
+                    <option value="MBA'08D Reunion Class Gift – May 2018">
+                    <option value="MBA'09D Reunion Class Gift in Memory of Machaba Machaba">
+                    <option value="MBA'13D Reunion Class Gift – May 2018">
+                    <option value="MBA'65 Scholarship">
+                    <option value="MBA'68 Scholarship for Women">
+                    <option value="MBA'69 Scholarship for Sub-Saharan Africans">
+                    <option value="MBA'70 Endowed Scholarship">
+                    <option value="MBA'80 Endowed Scholarship">
+                    <option value="MBA'87J Endowed Scholarship">
+                    <option value="MBA'88J Reunion Class Gift - October 2018">
+                    <option value="MBA'89D Endowed Scholarship">
+                    <option value="MBA'89J G. Jones Endowed Scholarship">
+                    <option value="MBA'91D Andrew Hordern Endowed Scholarship">
+                    <option value="MBA'91J Endowed Scholarship">
+                    <option value="MBA'92J Endowed Scholarship">
+                    <option value="MBA'92J Scholarship">
+                    <option value="MBA'93D Reunion Class Gift – June 2018">
+                    <option value="MBA'93J Endowed Scholarship">
+                    <option value="MBA'97D Endowed Scholarship">
+                    <option value="MBA'97D Scholarship">
+                    <option value="MBA'97J Scholarship">
+                    <option value="MBA'98D Endowed Scholarship">
+                    <option value="MBA'98J Endowed Scholarship">
+                    <option value="MBA’75 N Mandela Endowed Scholarship">
+                    <option value="NAA Lebanon Scholarship Fund">
+                    <option value="Patrick Turner MBA'78 Prize">
+                    <option value="Reaching Out LGBTQ Fellowship">
+                    <option value="Robin Hood Scholarship">
+                    <option value="Russian Alumni Endowed Scholarship">
+                    <option value="swiss Alumni Endowed Scholarship">
+                    <option value="The Dutch Alumni Research Fund for HGIBS">
+                    <option value="Washington SyCip Scholarship">
+                </datalist>
+            </div>
+        </div>
+        <div id="donation-amount" class="row margin-top-50">
+            <div>
+                <h2>Donation Amount</h2>
+            </div>
+        </div>
+
+        <div id="donation-currency" class="row">
+            <label>Available currencies</label>
+
+            <select id="currency">
+                <option value="CAD">Canadian Dollar</option>
+                <option value="EUR" selected>Euro</option>
+                <option value="HKD">Hong Kong Dollar</option>
+                <option value="SGD">Singapore Dollar</option>
+                <option value="GBP">UK Pound</option>
+                <option value="USD">US Dollar</option>
+            </select>
+        </div>
+
+        <div class="row margin-top-20">
+            <div class="one column">&nbsp;</div>
+            <div class="two columns"><button id="amount-1" amount="250" class="currency">250</button></div>
+            <div class="two columns"><button id="amount-2" amount="500" class="currency">500</button></div>
+            <div class="two columns"><button id="amount-3" amount="1000" class="currency">1,000</button></div>
+            <div class="two columns"><button id="amount-4" amount="2500" class="currency">2,500</button></div>
+            <div class="two columns"><button id="amount-5" amount="5000" class="currency">5,000</button></div>
+        </div>
+
+        <div class="row margin-top-50">
+            <div class="centered">
+                <label>Minimum amount is <span class="currency"></span>10</label>
+                <input type="text" id="other-amount">
+            </div>
+        </div>
+
+        <div id="giving-options" class="row margin-top-30">
+            <div class="two columns">&nbsp;</div>
+            <div class="four columns"><button id="give-once" disabled>Give Once</button></div>
+            <div class="four columns"><button id="give-regularly" disabled>Give Regularly</button></div>
+        </div>
+
+        <div id="direct-debit" class="row margin-top-30">
+            <div class="three columns">&nbsp;</div>
+
+            <div class="six columns box">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><label>Frequency</label></td>
+                            <td>
+                                <select id="frequency">
+                                    <option value="0" selected>Choose one</option>
+                                    <option value="12">Monthly</option>
+                                    <option value="4">Quaterly</option>
+                                    <option value="1">Yearly</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label>Duration</label></td>
+                            <td>
+                                <select id="duration">
+                                    <option value="0" selected>Choose one</option>
+                                    <option value="1">1 year</option>
+                                    <option value="2">2 years</option>
+                                    <option value="3">3 years</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">&nbsp;</td>
+                        </tr>
+                        <tr>
+                            <td>Commitment</td>
+                            <td><span id="commitment" class="currency FR">0</span></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Personal information -->
+    <div id="personal-information" class="container">
+        <div class="row margin-top-50">
+            <div>
+                <h2>Personal Information</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="eight columns">
+                <label>Enter your INSEAD or contact email to help us process your gift</label>
+
+                <input type="text" id="email">
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="eight columns">
+                <p id="alumni">We've never met before but we can have a coffee or something.</p>
+            </div>
+        </div>
+
+        <div class="row margin-top-30">
+            <div class="box">
+                <table>
+                    <tbody>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Treat my gift as anonymous and omit my name from any donor lists.</td>
+                        </tr>
+                        <tr>
+                            <td><input type="checkbox"></td>
+                            <td>Please contact me about leaving a legacy gift to INSEAD in my Will.</td>
+                        </tr>
+                        <tr id="gift-aid">
+                            <td><input type="checkbox" checked></td>
+                            <td>I want to Gift Aid my donation to the INSEAD Trust for European Management Education.</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="margin-top-10">
+                    <label>Additional request</label>
+                    <textarea id="comment"></textarea>
+                    <small>Let us know if your gift requires special care.</small>
+
+                </div>
+            </div>
+
+            <div class="row margin-top-30">
+                <button id="give">GIVE</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row privacy margin-top-30">
+            <p>
+                INSEAD takes your privacy very seriously. For this reason, we inform you that the data is processed electronically for the purpose(s) specified in this form and will not be used outside this framework.
+            </p>
+
+            <p>
+                In accordance with the Data Protection Act of 6 January 1978 amended by the GDPR, you are granted statutory rights of access, modification, update, deletion and limitation of treatment of your personal data. You may exercise these rights at any time by writing or sending an email to INSEAD at <a href="mailto:5555-ITservicedesk@insead.edu">5555-ITservicedesk@insead.edu</a>. You have the right, on legitimate grounds, to object to the collection and processing of your personal information. For more information, please see our <a href="/sites/betterworld/files/2018-09/Capital_Campaign_Website-Privacy_Policy.pdf" target="_blank">privacy policy</a>.
+            </p>
+        </div>
+    </div>
+</body>
+
+</html>

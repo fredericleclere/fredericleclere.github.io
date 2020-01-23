@@ -1,0 +1,155 @@
+#tax-relief,
+#gift-aid,
+#other-destinations,
+#direct-debit,
+#personal-information,
+#donation-destination,
+#donation-amount,
+#donation-currency {
+    display: none;
+}
+
+td {
+    border-bottom: 0;
+    padding: 0 15px;
+}
+
+.box {
+    border: 1px solid #E1E1E1;
+    background-color: #F5F5F5;
+    padding: 10px;
+    text-align: center;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+}
+
+*[id^='big-bucket'],
+*[id^='amount-'],
+*[id^='tax-receipt-'],
+*[id^='give-'],
+#give {
+    width: 100%;
+    line-height: normal;
+    white-space: normal;
+    min-height: 50px;
+    transition: background-color 0.5s, color 0.5s;
+    padding: 0;
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+
+.margin-top-20 {
+    margin-top: 20px;
+}
+
+.margin-top-30 {
+    margin-top: 30px;
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+.centered {
+    text-align: center;
+}
+
+.curr-UK:before,
+.curr-GBP:before {
+    content: '£';
+}
+
+.curr-FR:before,
+.curr-BE:before,
+.curr-LU:before,
+.curr-NL:before,
+.curr-EUR:before {
+    content: '€';
+}
+
+.curr-US:before,
+.curr-USD:before {
+    content: '$';
+}
+
+.curr-CA:before,
+.curr-CAD:before {
+    content: 'CA$';
+}
+
+.curr-SG:before,
+.curr-SGD:before {
+    content: 'S$';
+}
+
+.curr-CH:before,
+.curr-CHF:before {
+    content: 'CHF';
+}
+
+.curr-HK:before,
+.curr-HKD:before {
+    content: 'HK$';
+}
+
+*[id^='give-']:disabled {
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #F5F5F5;
+    color: #C0C0C0;
+}
+
+*[id^='give-']:enabled {
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #FFFFFF;
+    color: #555;
+}
+
+*[id^='give-'].button-primary:enabled {
+    background-color: #33C3F0;
+    color: #FFF;
+}
+
+#email,
+#soft-credit,
+#comment {
+    width: 100%
+}
+
+#personal-information .box {
+    text-align: left;
+}
+
+#personal-information table {
+    margin: 0;
+}
+
+#alumni {
+    text-align: center;
+    color: #F28B32;
+}
+
+#give {
+    background-color: #A8D4B3;
+    color: white;
+    font-size: 2rem;
+}
+
+TEXTAREA {
+    margin-bottom: 0;
+}
+
+.no-margins {
+    margin: 0;
+}
+
+.privacy p {
+    font-size: 70%;
+    color: #808080;
+    margin-bottom: 5px;
+}
